@@ -15,6 +15,5 @@ func main() {
 	}
 	defer res.Body.Close()
 	content, err := ioutil.ReadAll(res.Body)
-	// con := html.UnescapeString(string(content))
 	fmt.Println(string(content))
 }
