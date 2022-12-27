@@ -1,0 +1,1 @@
+LinDoc - Convert article to document
